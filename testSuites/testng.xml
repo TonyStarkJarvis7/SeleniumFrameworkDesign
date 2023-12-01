@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests"> <!-- parallel="tests" We faced Concurrency problem so we implemented threadSafe Concept-->
+<listeners>
+	<listener class-name="tonystarkindustries.TestComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Submit Order Test">
+    <classes>
+      <class name="tonystarkindustries.tests.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="tonystarkindustries.tests.ErrorValidationsTest"/>>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+</suite> <!-- Suite -->
