@@ -111,7 +111,7 @@ public class BaseTest {
 	 * These @BeforeMethod and @AfterMethod will not be skipped while running any
 	 * groups!
 	 */
-	
+	///using the below method to send data by converting into hashmap using ObjectMapper
 	public List<HashMap<String, String>> getJasonDataToMap(String filePath) throws IOException {
 		//String jsonContent=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"\\src\\test\\java\\tonystarkindustries\\data\\PurchaseOrder.json"),StandardCharsets.UTF_8);
 																					//THis file path is hardCoded
