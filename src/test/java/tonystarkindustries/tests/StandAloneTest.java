@@ -31,8 +31,8 @@ public class StandAloneTest {
 		JavascriptExecutor js=(JavascriptExecutor) driver;
 		
 		driver.get("https://rahulshettyacademy.com/client");
-		driver.findElement(By.id("userEmail")).sendKeys("tonystark@gmail.com");
-		driver.findElement(By.id("userPassword")).sendKeys("Cognizant1*");
+		driver.findElement(By.id("userEmail")).sendKeys("blankname@gmail.com");
+		driver.findElement(By.id("userPassword")).sendKeys("Blankname4$");
 		driver.findElement(By.id("login")).click();
 		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("[class*='mb-3']")));

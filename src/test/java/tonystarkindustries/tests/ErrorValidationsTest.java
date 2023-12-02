@@ -33,7 +33,7 @@ public class ErrorValidationsTest extends BaseTest{
 		// TODO Auto-generated method stub
 		//String URL="https://rahulshettyacademy.com/client"; URL is already present in GLobal level in goTo fun
 		
-		ProductCatalogue productCatalogue=landingPage.loginApplication("tonys6tark@gmail.com", "Cogn4izant1*");//PAssing values to login
+		ProductCatalogue productCatalogue=landingPage.loginApplication("blankname1@gmail.com", "blankname7$");//PAssing values to login
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		
 	}
@@ -42,7 +42,7 @@ public class ErrorValidationsTest extends BaseTest{
 	public void ProductErrorValidation() throws InterruptedException, IOException { 
 		//String URL="https://rahulshettyacademy.com/client"; URL is already present in GLobal level in goTo fun
 		String prdtName="ZARA COAT 3",cardMonth="12",cardYear="23", countryName="India";
-		ProductCatalogue productCatalogue=landingPage.loginApplication("tonystark@gmail.com", "Cognizant1*");//PAssing values to login
+		ProductCatalogue productCatalogue=landingPage.loginApplication("blankname@gmail.com", "Blankname4$");//PAssing values to login
 	
 		List<WebElement> products = productCatalogue.getProductList();
 		productCatalogue.addProductToCart(prdtName);

@@ -15,5 +15,8 @@ Feature: Purchase the order from eCommerce website
 
     Examples: 
       | username             | password    | productName |
-      | tonystark@gmail.com  | Cognizant1* | ZARA COAT 3 |
-      #| tonystark1@gmail.com | Cognizant1  | ADIDAS ORIGINAL |
+      | blankname@gmail.com  | Blankname4$ | ZARA COAT 3 |
+      #| blankname1@gmail.com | Blankname4$  | ADIDAS ORIGINAL |
+
+
+      

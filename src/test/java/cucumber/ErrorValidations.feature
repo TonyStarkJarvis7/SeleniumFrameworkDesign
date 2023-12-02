@@ -11,5 +11,5 @@ Feature: Error Validations
 
     Examples: 
       | username             | password         |
-      | tonys6tark@gmail.com | Cogn4izant1*     |
+      | blankname@gmail.com  | Blamknamewe$     |
       
