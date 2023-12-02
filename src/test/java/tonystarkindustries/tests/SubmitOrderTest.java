@@ -73,7 +73,7 @@ public class SubmitOrderTest extends BaseTest{
 	
 	@Test(dependsOnMethods= {"submitOrder"}) //This depends on the above method to excute because only then a prdt will be visible in the orders section
 	public void OrderHistoryTest() {
-		ProductCatalogue productCatalogue=landingPage.loginApplication("tonystark@gmail.com", "Cognizant1*");//PAssing values to login
+		ProductCatalogue productCatalogue=landingPage.loginApplication("blankname@gmail.com", "Blankname4$");//PAssing values to login
 		OrdersPage ordersPage=productCatalogue.goToOrdersPage();
 		Assert.assertTrue( ordersPage.verifyOrdersDisplay(prdtName)) ; //.verifyOrdersDisplay returns a boolean value
 	}
