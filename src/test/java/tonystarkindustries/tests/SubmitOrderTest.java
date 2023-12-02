@@ -85,15 +85,15 @@ public class SubmitOrderTest extends BaseTest{
 		return new Object[][]{{data.get(0)},{data.get(1)}};
 	
 		/*HashMap<String, String> map=new HashMap<String, String>();
-		map.put("email", "tonystark@gmail.com");
-		map.put("password", "Cognizant1*");
+		map.put("email", "blankname@gmail.com");
+		map.put("password", "Blankname4$");
 		map.put("product", "ZARA COAT 3");
 		
 		HashMap<String, String> map1=new HashMap<String, String>();
-		map1.put("email", "tonystark1@gmail.com");
-		map1.put("password", "Cognizant1");
+		map1.put("email", "blankname1@gmail.com");
+		map1.put("password", "Blankname4$");
 		map1.put("product", "ADIDAS ORIGINAL");*/		
-		//First way of writing->//return new Object[][] {{"tonystark@gmail.com","Cognizant1*","ZARA COAT 3"},{"tonystark1@gmail.com","Cognizant1","ADIDAS ORIGINAL"}};
+		//First way of writing->//return new Object[][] {{"blankname@gmail.com","Blankname4$","ZARA COAT 3"},{"blankname1@gmail.com","Blankname4$","ADIDAS ORIGINAL"}};
 	}
 	
 	
